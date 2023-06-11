@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+
+body {
+    font: normal 20px 'Nunito', sans-serif;
+    background-color: #FDF8FB;
+}
+
+.myimg {
+    width: 250px;
+    height: 230px;
+    border-radius: 7%;
+    box-shadow: 2px 3px 8px 0px rgb(0, 0, 0);
+}
+
+.marr {
+    margin-bottom: 1em;
+}
+
+.marr-left {
+    margin-left: 1em;
+}
+
+.marr-top {
+    margin-top: -0.2em;
+}
+
+.marr-top2 {
+    margin-top: 1em;
+}
+
+.space td, th {
+    padding: 0 15px 2px;
+}
+
+a {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+a:visited {
+    color: grey;
+}
+
+.bg-green {
+    background: #e9ffe1;
+}
+
+.page-padd {
+    padding-left: 2px;
+}
+
+.table-color {
+    color: #413c4f;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.ol-red {
+    color: #413c4f;
+    font-weight: 600;
+    padding-left: 56.6px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.padd {
+    padding-left: 2px;
+}
+
+.temp td:nth-child(1),
+.temp td:nth-child(3) {
+    color: black;
+}
+
+.container {
+    max-width: 580px;
+    margin:auto;
+}
+
+.space {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.padd2 {
+    padding-left: 2.8em;
+}
+
+.contact input {
+    width: 100%;
+    padding: 1px 0 1px;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    font: normal 20px 'Nunito', sans-serif;
+    background: transparent;
+    color: inherit;
+}
+
+.label-padd label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.btn2 {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.box {
+    position: fixed;
+    background-color: lightcoral;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: none;
+    margin: auto;
+}
+
+
+.transition-btn2 {
+    transition: all 0.5s;
+}
+
+
+.transition-btn:hover {
+    transform: translateY(-6px);
+    background-color: slategrey;
+    border: none;
+    border-radius: 0.2em;
+    color: white;
+}
+
+@keyframes slideinDown {
+    from {
+        transform: translateX(-100%)
+    }
+    
+    to {
+        transform: translateX(0)
+    }
+}
+
+.animat {
+    animation: slideInLeft 1s ease-in;
+}
